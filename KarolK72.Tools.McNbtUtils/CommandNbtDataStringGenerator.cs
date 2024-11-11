@@ -44,7 +44,7 @@ namespace KarolK72.Tools.McNbtUtils
                 }
                 builder.Remove(builder.Length - 2, 2); // remove comma and space
             }
-            if (tag is NbtString)
+            else if (tag is NbtString)
             {
                 builder.Append($"'{tag.StringValue}'");
             }
