@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarolK72.Tools.McNbtUtils", "KarolK72.Tools.McNbtUtils\KarolK72.Tools.McNbtUtils.csproj", "{CB1DAF18-BD23-4B30-B6C4-CEC4FD793D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EA5D7655-2C81-44A0-BEC3-941FAFFFE460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarolK72.Tools.McNbtUtils.Cli", "KarolK72.Tools.McNbtUtils.Cli\KarolK72.Tools.McNbtUtils.Cli.csproj", "{318B9758-6902-41A5-BEB3-A9D8A6A9304E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarolK72.Tools.McNbtUtils.App", "KarolK72.Tools.McNbtUtils.App\KarolK72.Tools.McNbtUtils.App.csproj", "{12349D49-918E-4911-AF35-5E1212F89A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1DAF18-BD23-4B30-B6C4-CEC4FD793D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1DAF18-BD23-4B30-B6C4-CEC4FD793D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1DAF18-BD23-4B30-B6C4-CEC4FD793D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1DAF18-BD23-4B30-B6C4-CEC4FD793D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318B9758-6902-41A5-BEB3-A9D8A6A9304E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318B9758-6902-41A5-BEB3-A9D8A6A9304E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318B9758-6902-41A5-BEB3-A9D8A6A9304E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318B9758-6902-41A5-BEB3-A9D8A6A9304E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12349D49-918E-4911-AF35-5E1212F89A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12349D49-918E-4911-AF35-5E1212F89A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12349D49-918E-4911-AF35-5E1212F89A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12349D49-918E-4911-AF35-5E1212F89A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{318B9758-6902-41A5-BEB3-A9D8A6A9304E} = {EA5D7655-2C81-44A0-BEC3-941FAFFFE460}
+		{12349D49-918E-4911-AF35-5E1212F89A76} = {EA5D7655-2C81-44A0-BEC3-941FAFFFE460}
+	EndGlobalSection
+EndGlobal
